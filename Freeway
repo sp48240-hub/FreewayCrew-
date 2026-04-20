@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>FreewayCrew | Dance Crew</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f0f0f;
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 60px 20px;
+      background: linear-gradient(45deg, #ff0057, #00f2ff);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 3em;
+    }
+
+    section {
+      padding: 40px 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 12px 25px;
+      margin-top: 15px;
+      background: #ff0057;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      font-weight: bold;
+    }
+
+    .gallery img {
+      width: 90%;
+      max-width: 300px;
+      margin: 10px;
+      border-radius: 10px;
+    }
+
+    form input, form textarea {
+      width: 90%;
+      max-width: 400px;
+      padding: 10px;
+      margin: 10px 0;
+      border-radius: 5px;
+      border: none;
+    }
+
+    form button {
+      padding: 12px 20px;
+      background: #00f2ff;
+      border: none;
+      border-radius: 20px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 20px;
+      background: #111;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>FreewayCrew</h1>
+  <p>All Styles. One Crew. Unlimited Energy.</p>
+  <a href="#booking" class="btn">Book Us Now</a>
+</header>
+
+<section>
+  <h2>About Us</h2>
+  <p>
+    FreewayCrew is a Chennai-based dance crew performing hip-hop, freestyle,
+    fusion, and more. We bring energy, creativity, and unforgettable performances
+    to every stage—from college events to weddings and private shows.
+  </p>
+</section>
+
+<section>
+  <h2>Our Styles</h2>
+  <p>Hip-Hop | Freestyle | Fusion | Cultural | Choreography</p>
+</section>
+
+<section class="gallery">
+  <h2>Gallery</h2>
+  <img src="https://via.placeholder.com/300" alt="Dance 1">
+  <img src="https://via.placeholder.com/300" alt="Dance 2">
+  <img src="https://via.placeholder.com/300" alt="Dance 3">
+</section>
+
+<section id="booking">
+  <h2>Book FreewayCrew</h2>
+  <form>
+    <input type="text" placeholder="Your Name" required><br>
+    <input type="tel" placeholder="Phone Number" required><br>
+    <input type="text" placeholder="Event Type (Wedding, Show, etc)" required><br>
+    <input type="date" required><br>
+    <input type="text" placeholder="Location" required><br>
+    <textarea placeholder="Tell us about your event"></textarea><br>
+    <button type="submit">Send Booking Request</button>
+  </form>
+</section>
+
+<section>
+  <h2>Contact</h2>
+  <p>📍 Chennai</p>
+  <p>📸 Instagram: @freewaycrew</p>
+  <p>📞 WhatsApp: +91 9094027062</p>
+</section>
+
+<footer>
+  <p>© 2026 FreewayCrew. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
