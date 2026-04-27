@@ -91,22 +91,18 @@ footer {
 
 <section>
   <h2>Our Team</h2>
-  <div class="team">
-    <img src="https://member1.jpeg">
-    <img src="https://https://memeber2.jpeg">
-    <img src="https://https://member3.jpeg">
-  </div>
+ <div class="team">
+  <img src="team1.jpg">
+  <img src="team2.jpg">
+  <img src="performance.jpg">
+</div>
 </section>
 
 <section>
   <h2>Our Mentor</h2>
-  <img src="https://master.jpg" width="180">
-  <p>
-    Guided by passion and experience, our mentor shapes FreewayCrew
-    into a powerful dance team.
-  </p>
+  <img src="mentor.jpg" width="200">
+  <p>Our mentor guides FreewayCrew with passion and experience.</p>
 </section>
-
 <section>
   <h2>🔥 Our Vibe</h2>
   <p>“ஆடுவது எங்கள் உயிர், மேடை எங்கள் உலகம்”</p>
